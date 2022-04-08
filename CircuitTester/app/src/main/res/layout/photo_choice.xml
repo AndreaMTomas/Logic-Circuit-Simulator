@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null">
+
+    <TextView
+        android:id="@+id/overlayBG"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/button_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/photoProject"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/retro"
+        android:gravity="center"
+        android:text="Take A Photo For An Outline"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/overlayBG"
+        app:layout_constraintEnd_toEndOf="@+id/overlayBG"
+        app:layout_constraintStart_toEndOf="@+id/blankProject"
+        app:layout_constraintTop_toTopOf="@+id/overlayBG" />
+
+    <TextView
+        android:id="@+id/photoProjectBG"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/gradient_list"
+        app:layout_constraintEnd_toEndOf="@+id/photoProject"
+        app:layout_constraintStart_toStartOf="@+id/photoProject"
+        app:layout_constraintTop_toTopOf="@+id/photoProject" />
+
+    <TextView
+        android:id="@+id/photoProjectBorder"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/three_d_shape"
+        app:layout_constraintEnd_toEndOf="@+id/photoProject"
+        app:layout_constraintStart_toStartOf="@+id/photoProject"
+        app:layout_constraintTop_toTopOf="@+id/photoProject" />
+
+    <Button
+        android:id="@+id/blankProject"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/retro"
+        android:gravity="center"
+        android:text="Start From Scratch"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/overlayBG"
+        app:layout_constraintEnd_toStartOf="@+id/photoProject"
+        app:layout_constraintStart_toStartOf="@+id/overlayBG"
+        app:layout_constraintTop_toTopOf="@+id/overlayBG" />
+
+    <TextView
+        android:id="@+id/blankProjectBG"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/gradient_list"
+        app:layout_constraintEnd_toEndOf="@+id/blankProject"
+        app:layout_constraintStart_toStartOf="@+id/blankProject"
+        app:layout_constraintTop_toTopOf="@+id/blankProject" />
+
+    <TextView
+        android:id="@+id/blankProjectBorder"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/three_d_shape"
+        app:layout_constraintEnd_toEndOf="@+id/blankProject"
+        app:layout_constraintStart_toStartOf="@+id/blankProject"
+        app:layout_constraintTop_toTopOf="@+id/blankProject" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
