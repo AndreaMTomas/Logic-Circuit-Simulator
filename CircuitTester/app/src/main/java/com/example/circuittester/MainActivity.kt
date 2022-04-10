@@ -1,6 +1,8 @@
 package com.example.circuittester
 
+import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -65,6 +67,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         sampleProjects.setOnClickListener{
+            val intent = Intent(this, LoadSamples::class.java)
+            startActivity(intent)
             mPlayer.release()
         }
 
