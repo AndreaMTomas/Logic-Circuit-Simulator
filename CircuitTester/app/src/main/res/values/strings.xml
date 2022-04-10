@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Circuit Tester</string>
+
+    <!-- Strings for class ComponentsList (Used for RecyclerView) -->
+    <string name = "not_gate_name" > NOR </string>
+    <string name = "and_gate_name" > AND </string>
+    <string name = "or_gate_name" > OR </string>
+    <string name = "xor_gate_name" > XOR </string>
+    <string name = "ground_gate_name" > GROUND </string>
+    <string name = "voltage_gate_name" > VOLTAGE </string>
+    <string name = "led_gate_name" > LED </string>
+
+    <string name = "not_gate_description" > The NOT gate is a component that reverses its input.
+    It is also known as an inverter, if the input value is 1 the output will be 0. </string>
+    <string name = "and_gate_description" > AND gates have two inputs (bits) and one output.
+    The output of this kind of gate will be 1 if both inputs are 1, otherwise it will be 0. </string>
+    <string name = "or_gate_description" > The OR gate has two inputs, if one of its input is 1
+    the output will be 1. The only way that it would produce a low output would be if
+    both inputs are 0. </string>
+    <string name = "xor_gate_description" > The XOR gate will produce a high output
+    if either (but not both) of its inputs are 1. </string>
+    <string name = "ground_description" > This component produces a 0 output. </string>
+    <string name = "voltage_description" > This component produces a 1 output. </string>
+    <string name = "led_gate_description" > This component will light up as long as its
+    input is 1. </string>
+
+    <!-- Strings for the titles and the truths table -->
+    <string name = "not_title" > NOT </string>
+    <string name = "and_title" > AND </string>
+    <string name = "or_title" > OR </string>
+    <string name = "xor_title" > XOR </string>
+    <string name = "ground_title" > GROUND </string>
+    <string name = "voltage_title" > VOLTAGE </string>
+    <string name = "led_title" > LED </string>
 </resources>

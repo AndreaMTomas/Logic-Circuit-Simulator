@@ -24,5 +24,9 @@ class PhotoChoice : Activity(){
     fun buttonClick() {
         val photoProject = findViewById<Button>(R.id.photoProject)
         val blankProject = findViewById<Button>(R.id.blankProject)
+        blankProject.setOnClickListener {
+            val intent = Intent(this, BlankProject::class.java)
+            startActivity(intent)
+        }
     }
 }

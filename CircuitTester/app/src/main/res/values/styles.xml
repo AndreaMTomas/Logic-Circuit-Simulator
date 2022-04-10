@@ -6,4 +6,9 @@
         <item name="android:windowIsTranslucent">true</item>
     </style>
 
+    <style name="listTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
 </resources>
