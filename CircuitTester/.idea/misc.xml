@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/blank_project_activity.xml" value="0.18" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/component_detail_activity.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/component_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/components_list_activity.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/photo_choice.xml" value="0.22447916666666667" />
         <entry key="app/src/main/res/drawable/bg1.xml" value="0.23385416666666667" />
         <entry key="app/src/main/res/drawable/bg2.xml" value="0.23385416666666667" />
         <entry key="app/src/main/res/drawable/bg3.xml" value="0.23385416666666667" />

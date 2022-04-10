@@ -21,6 +21,16 @@
         <activity
             android:name=".PhotoChoice"
             android:theme="@style/popupTheme"/>
+        <activity
+            android:name=".BlankProject"
+            android:label="Blank Project"/>
+        <activity
+            android:name=".componentsList.ComponentsListActivity"
+            android:label="Components information"
+            android:theme="@style/listTheme"/>
+        <activity
+            android:name=".componentDetail.ComponentDetailActivity"
+            android:label="Component Details"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
