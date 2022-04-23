@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">Circuit Tester</string>
-
-<<<<<<< HEAD
+    <!-- Landscape and Portrait Strings-->
     <string name="portraitText">Portrait</string>
     <string name="landscapeText">Landscape</string>
-=======
     <!-- Strings for class ComponentsList (Used for RecyclerView) -->
-    <string name = "not_gate_name" > NOR </string>
+    <string name = "not_gate_name" > NOT </string>
     <string name = "and_gate_name" > AND </string>
     <string name = "or_gate_name" > OR </string>
     <string name = "xor_gate_name" > XOR </string>
@@ -36,5 +34,4 @@
     <string name = "ground_title" > GROUND </string>
     <string name = "voltage_title" > VOLTAGE </string>
     <string name = "led_title" > LED </string>
->>>>>>> origin/Add_Component
 </resources>

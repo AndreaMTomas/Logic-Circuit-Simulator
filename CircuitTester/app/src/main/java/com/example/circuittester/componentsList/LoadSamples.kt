@@ -14,22 +14,23 @@ import com.example.circuittester.componentDetail.ComponentDetailActivity
 import com.example.circuittester.data.Component
 import androidx.appcompat.widget.Toolbar
 
-const val COMPONENT_ID = "component id"
-const val COMPONENT_ICON = "component icon"
-class ComponentsListActivity: AppCompatActivity(){
+class LoadSamples : AppCompatActivity() {
 
+    // Problem is that these components are loading in so that they can be added as items, fix this
+    // tomorrow by reverting back to your default list and pulling from the components list
+    // individually
     private val componentsListViewModel by viewModels<ComponentsListViewModel> {
         ComponentsListViewModelFactory(this)
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState : Bundle?){
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.components_list_activity)
+        setContentView(R.layout.load_samples)
 
         //val componentsAdapter = ComponentsAdapter {component -> adapterOnClick(component)}
         val componentsAdapter = ComponentsAdapter({component -> adapterOnClick(component) }, {component -> addComponent(component) })
         val concatAdapter = ConcatAdapter(componentsAdapter)
-        val recyclerView: RecyclerView = findViewById(R.id.recyclerViewList)
+        val recyclerView: RecyclerView = findViewById(R.id.rv)
         recyclerView.adapter = concatAdapter
 
         componentsListViewModel.componentsLiveData.observe(this){
@@ -37,20 +38,6 @@ class ComponentsListActivity: AppCompatActivity(){
                 componentsAdapter.submitList(it as MutableList<Component>)
             }
         }
-        // Back button
-        val actionbarMainActivity = supportActionBar
-        // Set actionbar title
-        actionbarMainActivity!!.title = "Components list"
-        // Set back button
-        actionbarMainActivity.setDisplayHomeAsUpEnabled(true)
-        actionbarMainActivity.setDisplayHomeAsUpEnabled(true)
-
-
-    }
-
-    override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
-        return true
     }
 
     private fun adapterOnClick(component: Component) {
@@ -65,4 +52,7 @@ class ComponentsListActivity: AppCompatActivity(){
         setResult(Activity.RESULT_OK, intent)
         startActivity(intent)
     }
+
+
+
 }

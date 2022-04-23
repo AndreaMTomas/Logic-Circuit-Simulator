@@ -1,20 +1,14 @@
 package com.example.circuittester
 
-import android.content.Context
 import android.content.Intent
-import android.content.res.Configuration
 import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import org.w3c.dom.Text
-import android.media.AudioManager
 import android.media.MediaPlayer
-import android.net.Uri
-import android.nfc.NdefRecord.createUri
 import android.widget.Button
-import android.widget.PopupWindow
 import android.widget.Toast
+import com.example.circuittester.componentsList.LoadSamples
 
 
 class MainActivity : AppCompatActivity() {

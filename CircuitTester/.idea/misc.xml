@@ -21,7 +21,16 @@
         <entry key="app/src/main/res/font/font.xml" value="0.24791666666666667" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout-land/activity_main_land.xml" value="0.23125" />
+        <entry key="app/src/main/res/layout-land/blank_project_activity.xml" value="0.2296875" />
+        <entry key="app/src/main/res/layout-land/component_detail_activity.xml" value="0.18288288288288287" />
+        <entry key="app/src/main/res/layout-land/component_item.xml" value="0.2296875" />
+        <entry key="app/src/main/res/layout-land/load_samples.xml" value="0.2296875" />
+        <entry key="app/src/main/res/layout-land/photo_choice.xml" value="0.2296875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/blank_project_activity.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/component_detail_activity.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/component_item.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/components_list_activity.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/load_samples.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/layout/photo_choice.xml" value="0.21770833333333334" />

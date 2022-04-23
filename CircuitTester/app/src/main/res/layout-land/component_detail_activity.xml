@@ -22,29 +22,27 @@
             android:textSize="45sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintHorizontal_bias="0.038"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.023" />
+            app:layout_constraintVertical_bias="0.227" />
 
         <ImageView
             android:id="@+id/imageDetail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="540dp"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
             android:background="@color/white"
             android:contentDescription="TODO"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/imageTruthTable"
+            app:layout_constraintEnd_toEndOf="@+id/imageTruthTable"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageTruthTable"
             app:srcCompat="@drawable/and" />
 
         <TextView
             android:id="@+id/textDetailDescription"
             android:layout_width="307dp"
             android:layout_height="259dp"
-            android:layout_marginTop="17dp"
             android:fontFamily="@font/sourcecode"
             android:text="@string/and_gate_description"
             android:textAlignment="textStart"
@@ -52,29 +50,29 @@
             android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageDetail"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
 
         <ImageView
             android:id="@+id/imageTruthTable"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
             android:background="@color/white"
             android:contentDescription="TODO"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textDetailDescription"
-            app:layout_constraintVertical_bias="0.162"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.896"
             app:srcCompat="@drawable/and_truth_table" />
 
         <Button
             android:id="@+id/buttonDetailBack"
             android:layout_width="149dp"
             android:layout_height="63dp"
-            android:layout_marginTop="16dp"
             android:backgroundTint="#191970"
             android:fontFamily="@font/retro"
             android:text="Back"
@@ -83,7 +81,9 @@
             app:cornerRadius="60px"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.027"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageTruthTable" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.045" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
