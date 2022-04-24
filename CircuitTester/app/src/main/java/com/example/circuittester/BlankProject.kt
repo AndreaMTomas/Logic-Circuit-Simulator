@@ -21,10 +21,21 @@ class BlankProject: AppCompatActivity() {
         layout = findViewById(R.id.playgroundLayout)
         val buttonAdd: Button = findViewById(R.id.buttonAdd)
         val buttonHome : Button = findViewById(R.id.buttonHome)
+        val buttonMic : Button = findViewById(R.id.buttonMic)
+        val buttonBG : Button = findViewById(R.id.buttonBG)
 
         /* Listener for adding a new component */
         buttonAdd.setOnClickListener {
             addOnClick()
+        }
+        /* Listener for adding an audio clip*/
+        buttonMic.setOnClickListener{
+            micOnClick()
+        }
+
+        /* Listener for adding a background picture*/
+        buttonBG.setOnClickListener {
+            bgOnClick()
         }
 
         /* Listener for going back to main activity */
@@ -32,6 +43,7 @@ class BlankProject: AppCompatActivity() {
             val intent = Intent(this, MainActivity()::class.java)
             startActivity(intent)
         }
+
 
         /* Get icon from ComponentsList Activity and adds it to the playground layout*/
         var bundle : Bundle?=intent.extras
@@ -54,6 +66,14 @@ class BlankProject: AppCompatActivity() {
     private fun addOnClick(){
         val intent = Intent(this, ComponentsListActivity()::class.java)
         startActivity(intent)
+    }
+
+    private fun micOnClick(){
+
+    }
+
+    private fun bgOnClick(){
+
     }
 
     /* Parameter1 : Image to be added, Parameter 2: Width, Parameter 3: Height */
