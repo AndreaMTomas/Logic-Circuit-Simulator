@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jacob/StudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.1585" />
+        <entry key="..\:/Users/Jacob/StudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout-land/blank_project_activity.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Jacob/StudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/activity_main.xml" value="0.26494427558257344" />
+        <entry key="..\:/Users/Jacob/StudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/blank_project_activity.xml" value="0.27178318135764945" />
+        <entry key="..\:/Users/Jacob/StudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/component_item.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/Jacob/StudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/gate_activity.xml" value="0.27001013171225935" />
+        <entry key="..\:/Users/Jacob/StudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/photo_choice.xml" value="0.31875" />
+        <entry key="..\:/Users/Jacob/StudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/mipmap-anydpi-v26/camera.xml" value="0.1" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/blank_project_activity.xml" value="0.18" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/component_detail_activity.xml" value="0.22447916666666667" />
