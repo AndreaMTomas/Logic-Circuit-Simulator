@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/s3circuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sample_3" />
+
+    <CheckBox
+        android:id="@+id/s3b1"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="341dp"
+        android:layout_marginBottom="292dp"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        app:layout_constraintBottom_toBottomOf="@+id/s3circuit"
+        app:layout_constraintEnd_toEndOf="@+id/s3circuit"
+        app:layout_constraintStart_toStartOf="@+id/s3circuit"
+        app:layout_constraintTop_toTopOf="@+id/s3circuit" />
+
+    <CheckBox
+        android:id="@+id/s3b2"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="228dp"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:translationX="-1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/s3circuit"
+        app:layout_constraintEnd_toEndOf="@+id/s3circuit"
+        app:layout_constraintStart_toStartOf="@+id/s3circuit"
+        app:layout_constraintTop_toTopOf="@+id/s3circuit" />
+
+    <CheckBox
+        android:id="@+id/s3b3"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="341dp"
+        android:layout_marginBottom="143dp"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:translationX="-1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/s3circuit"
+        app:layout_constraintEnd_toEndOf="@+id/s3circuit"
+        app:layout_constraintStart_toStartOf="@+id/s3circuit"
+        app:layout_constraintTop_toTopOf="@+id/s3circuit" />
+
+    <ImageView
+        android:id="@+id/s3Led"
+        android:layout_width="55dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="346dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="164dp"
+        app:layout_constraintBottom_toBottomOf="@+id/s3circuit"
+        app:layout_constraintEnd_toEndOf="@+id/s3circuit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/s3circuit"
+        app:layout_constraintTop_toTopOf="@+id/s3circuit"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/led_off" />
+
+    <Button
+        android:id="@+id/sample3Back"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/retro"
+        android:gravity="center"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>

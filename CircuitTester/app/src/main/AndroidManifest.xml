@@ -31,6 +31,24 @@
         <activity
             android:name=".componentDetail.ComponentDetailActivity"
             android:label="Component Details"/>
+        <activity
+            android:name=".SampleDisplay"
+            android:label="Samples"/>
+        <activity
+            android:name=".samples.SampleOne"
+            android:label="First Sample"/>
+        <activity
+            android:name=".samples.SampleTwo"
+            android:label="Second Sample"/>
+        <activity
+            android:name=".samples.SampleThree"
+            android:label="Third Sample"/>
+        <activity
+            android:name=".samples.SampleFour"
+            android:label="Fourth Sample"/>
+        <activity
+            android:name=".samples.SampleFive"
+            android:label="Fifth Sample"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
