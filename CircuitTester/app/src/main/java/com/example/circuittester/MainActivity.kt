@@ -1,5 +1,6 @@
 package com.example.circuittester
 
+import android.app.Activity
 import android.content.Intent
 import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
@@ -8,10 +9,9 @@ import android.widget.TextView
 import android.media.MediaPlayer
 import android.widget.Button
 import android.widget.Toast
-import com.example.circuittester.componentsList.LoadSamples
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         buttonClick()
     }
 
-    fun buttonAnimations(){
+    private fun buttonAnimations(){
         //Button 1 Effects
         val textBG1: TextView = findViewById(R.id.createNewBG)
         val animateBG1: AnimationDrawable = textBG1.background as AnimationDrawable
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         animateBG3.start()
     }
 
-    fun buttonClick(){
+    private fun buttonClick(){
         val newProject = findViewById<Button>(R.id.createNewProject)
         val savedProjects = findViewById<Button>(R.id.savedProjects)
         val sampleProjects = findViewById<Button>(R.id.loadSamples)
@@ -61,8 +61,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         sampleProjects.setOnClickListener{
-            val intent = Intent(this, LoadSamples::class.java)
-            startActivity(intent)
+            val samples = Intent(this, SampleDisplay::class.java)
+            startActivity(samples)
             mPlayer.release()
         }
 

@@ -3,7 +3,6 @@ package com.example.circuittester.componentsList
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.ConcatAdapter
@@ -12,7 +11,6 @@ import com.example.circuittester.BlankProject
 import com.example.circuittester.R
 import com.example.circuittester.componentDetail.ComponentDetailActivity
 import com.example.circuittester.data.Component
-import androidx.appcompat.widget.Toolbar
 
 const val COMPONENT_ID = "component id"
 const val COMPONENT_ICON = "component icon"

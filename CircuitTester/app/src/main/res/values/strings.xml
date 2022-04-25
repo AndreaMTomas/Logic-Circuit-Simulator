@@ -3,6 +3,7 @@
     <!-- Landscape and Portrait Strings-->
     <string name="portraitText">Portrait</string>
     <string name="landscapeText">Landscape</string>
+
     <!-- Strings for class ComponentsList (Used for RecyclerView) -->
     <string name = "not_gate_name" > NOT </string>
     <string name = "and_gate_name" > AND </string>
@@ -34,4 +35,18 @@
     <string name = "ground_title" > GROUND </string>
     <string name = "voltage_title" > VOLTAGE </string>
     <string name = "led_title" > LED </string>
+
+    <!-- Strings for class SamplesList (Used for RecyclerView) -->
+    <string name = "circuit_one_name" > Sample 1 </string>
+    <string name = "circuit_two_name" > Sample 2 </string>
+    <string name = "circuit_three_name" > Sample 3 </string>
+    <string name = "circuit_four_name" > Sample 4 </string>
+    <string name = "circuit_five_name" > Sample 5 </string>
+
+    <string name = "circuit_one_description" > Description 1 </string>
+    <string name = "circuit_two_description" > Description 2 </string>
+    <string name = "circuit_three_description" > Description 3 </string>
+    <string name = "circuit_four_description" > Description 4 </string>
+    <string name = "circuit_five_description" > Description 5 </string>
+
 </resources>

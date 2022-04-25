@@ -42,6 +42,16 @@
         <entry key="app/src/main/res/layout/list_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/load_samples.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/layout/photo_choice.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/sample_detail_activity.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/sample_five.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/sample_four.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/sample_item.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/sample_one.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/sample_three.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/sample_two.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/samples_detail_activity.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/samples_display.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/samples_list_activity.xml" value="0.3151476372953163" />
         <entry key="app/src/main/res/xml/activity_main.xml" value="0.21770833333333334" />
       </map>
     </option>
