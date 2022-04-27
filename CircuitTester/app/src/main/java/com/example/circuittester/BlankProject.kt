@@ -11,6 +11,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.circuittester.componentsList.COMPONENT_ICON
 import com.example.circuittester.componentsList.ComponentsListActivity
+import com.example.circuittester.data.Gate
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+
+
+var circuitView = mutableListOf<ImageView>()
+var circuitData = mutableListOf<Gate>()
 
 class BlankProject: AppCompatActivity() {
     lateinit var layout: ConstraintLayout
@@ -20,10 +26,10 @@ class BlankProject: AppCompatActivity() {
         setContentView(R.layout.blank_project_activity)
 
         layout = findViewById(R.id.playgroundLayout)
-        val buttonAdd: Button = findViewById(R.id.buttonAdd)
+        val buttonAdd: FloatingActionButton = findViewById(R.id.buttonAdd)
         val buttonHome : Button = findViewById(R.id.buttonHome)
-        val buttonMic : Button = findViewById(R.id.buttonMic)
-        val buttonBG : Button = findViewById(R.id.buttonBG)
+        val buttonMic : FloatingActionButton = findViewById(R.id.buttonMic)
+        val buttonBG : FloatingActionButton = findViewById(R.id.buttonBG)
 
         //takes the image from the photo choice and converts back to the image
         val byteArray = intent.getByteArrayExtra("image")
