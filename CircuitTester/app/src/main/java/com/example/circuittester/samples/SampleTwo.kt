@@ -21,12 +21,40 @@ class SampleTwo : AppCompatActivity() {
         val input3 = findViewById<CheckBox>(R.id.s2b3)
         val image = findViewById<ImageView>(R.id.s2Led)
 
-        if (input1.isChecked && input2.isChecked && input3.isChecked){
-            image.setImageResource(R.drawable.led_off)
-        } else if (input1.isChecked && !input2.isChecked && input3.isChecked){
-            image.setImageResource(R.drawable.led_on)
-        } else if (!input1.isChecked && input2.isChecked && input3.isChecked){
-            image.setImageResource(R.drawable.led_on)
+        input1.setOnCheckedChangeListener { input1, b ->
+            if (input1.isChecked && input2.isChecked && input3.isChecked) {
+                image.setImageResource(R.drawable.led_off)
+            } else if (input1.isChecked && !input2.isChecked && input3.isChecked) {
+                image.setImageResource(R.drawable.led_on)
+            } else if (!input1.isChecked && input2.isChecked && input3.isChecked) {
+                image.setImageResource(R.drawable.led_on)
+            } else {
+                image.setImageResource(R.drawable.led_off)
+            }
+        }
+
+        input2.setOnCheckedChangeListener { input2, b ->
+            if (input1.isChecked && input2.isChecked && input3.isChecked) {
+                image.setImageResource(R.drawable.led_off)
+            } else if (input1.isChecked && !input2.isChecked && input3.isChecked) {
+                image.setImageResource(R.drawable.led_on)
+            } else if (!input1.isChecked && input2.isChecked && input3.isChecked) {
+                image.setImageResource(R.drawable.led_on)
+            } else {
+                image.setImageResource(R.drawable.led_off)
+            }
+        }
+
+        input3.setOnCheckedChangeListener { input3, b ->
+            if (input1.isChecked && input2.isChecked && input3.isChecked) {
+                image.setImageResource(R.drawable.led_off)
+            } else if (input1.isChecked && !input2.isChecked && input3.isChecked) {
+                image.setImageResource(R.drawable.led_on)
+            } else if (!input1.isChecked && input2.isChecked && input3.isChecked) {
+                image.setImageResource(R.drawable.led_on)
+            } else {
+                image.setImageResource(R.drawable.led_off)
+            }
         }
 
         back.setOnClickListener {

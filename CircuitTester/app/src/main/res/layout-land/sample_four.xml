@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/s4circuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
+        app:srcCompat="@drawable/sample_4" />
+
+    <CheckBox
+        android:id="@+id/s4b1"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="643dp"
+        android:layout_marginBottom="266dp"
+        android:scaleX="4"
+        android:scaleY="4"
+        android:translationX="-1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/s4circuit"
+        app:layout_constraintEnd_toEndOf="@+id/s4circuit"
+        app:layout_constraintStart_toStartOf="@+id/s4circuit"
+        app:layout_constraintTop_toTopOf="@+id/s4circuit" />
+
+    <CheckBox
+        android:id="@+id/s4b2"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="642dp"
+        android:layout_marginBottom="181dp"
+        android:scaleX="4"
+        android:scaleY="4"
+        android:translationX="-1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/s4circuit"
+        app:layout_constraintEnd_toEndOf="@+id/s4circuit"
+        app:layout_constraintStart_toStartOf="@+id/s4circuit"
+        app:layout_constraintTop_toTopOf="@+id/s4circuit" />
+
+    <CheckBox
+        android:id="@+id/s4b3"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="643dp"
+        android:layout_marginBottom="100dp"
+        android:scaleX="4"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/s4circuit"
+        app:layout_constraintEnd_toEndOf="@+id/s4circuit"
+        app:layout_constraintStart_toStartOf="@+id/s4circuit"
+        app:layout_constraintTop_toTopOf="@+id/s4circuit" />
+
+    <CheckBox
+        android:id="@+id/s4b4"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="643dp"
+        android:layout_marginBottom="19dp"
+        android:scaleX="4"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/s4circuit"
+        app:layout_constraintEnd_toEndOf="@+id/s4circuit"
+        app:layout_constraintStart_toStartOf="@+id/s4circuit"
+        app:layout_constraintTop_toTopOf="@+id/s4circuit" />
+
+    <ImageView
+        android:id="@+id/s4Led"
+        android:layout_width="70dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="661dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="196dp"
+        app:layout_constraintBottom_toBottomOf="@+id/s4circuit"
+        app:layout_constraintEnd_toEndOf="@+id/s4circuit"
+        app:layout_constraintStart_toStartOf="@+id/s4circuit"
+        app:layout_constraintTop_toTopOf="@+id/s4circuit"
+        app:srcCompat="@drawable/led_off" />
+
+    <Button
+        android:id="@+id/sample4Back"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/retro"
+        android:gravity="center"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983" />
+</androidx.constraintlayout.widget.ConstraintLayout>

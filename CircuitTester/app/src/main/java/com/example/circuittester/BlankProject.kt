@@ -2,6 +2,7 @@ package com.example.circuittester
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.view.MotionEvent
 import android.widget.Button
@@ -23,6 +24,16 @@ class BlankProject: AppCompatActivity() {
         val buttonHome : Button = findViewById(R.id.buttonHome)
         val buttonMic : Button = findViewById(R.id.buttonMic)
         val buttonBG : Button = findViewById(R.id.buttonBG)
+
+        //takes the image from the photo choice and converts back to the image
+        val byteArray = intent.getByteArrayExtra("image")
+        //if there is an image, then the background will be made, otherwise it will be skipped
+        if(byteArray != null){
+            val bmp = BitmapFactory.decodeByteArray(byteArray, 0, byteArray!!.size)
+
+            val theview = findViewById<ImageView>(R.id.imview)
+            theview.setImageBitmap(bmp)
+        }
 
         /* Listener for adding a new component */
         buttonAdd.setOnClickListener {
