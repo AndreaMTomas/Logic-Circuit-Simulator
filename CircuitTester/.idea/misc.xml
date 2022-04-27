@@ -9,6 +9,15 @@
         <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/component_item.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/components_list_activity.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/photo_choice.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lebro/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout-land/activity_main.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/lebro/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout-land/blank_project_activity.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/lebro/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/activity_main.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/lebro/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/blank_project_activity.xml" value="0.1" />
+        <entry key="..\:/Users/lebro/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/photo_choice.xml" value="0.1" />
+        <entry key="..\:/Users/lebro/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/photo_project.xml" value="0.1" />
+        <entry key="..\:/Users/lebro/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/sample_one.xml" value="0.1" />
+        <entry key="..\:/Users/lebro/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/layout/samples_display.xml" value="0.22" />
+        <entry key="..\:/Users/lebro/AndroidStudioProjects/Logic-Circuit-Simulator/CircuitTester/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1565" />
         <entry key="app/src/main/res/drawable/bg1.xml" value="0.23385416666666667" />
         <entry key="app/src/main/res/drawable/bg2.xml" value="0.23385416666666667" />
         <entry key="app/src/main/res/drawable/bg3.xml" value="0.23385416666666667" />
@@ -26,12 +35,6 @@
         <entry key="app/src/main/res/layout-land/component_item.xml" value="0.2296875" />
         <entry key="app/src/main/res/layout-land/load_samples.xml" value="0.2296875" />
         <entry key="app/src/main/res/layout-land/photo_choice.xml" value="0.2296875" />
-        <entry key="app/src/main/res/layout-land/sample_five.xml" value="0.25052083333333336" />
-        <entry key="app/src/main/res/layout-land/sample_four.xml" value="0.25052083333333336" />
-        <entry key="app/src/main/res/layout-land/sample_one.xml" value="0.25052083333333336" />
-        <entry key="app/src/main/res/layout-land/sample_three.xml" value="0.25052083333333336" />
-        <entry key="app/src/main/res/layout-land/sample_two.xml" value="0.25052083333333336" />
-        <entry key="app/src/main/res/layout-land/samples_display.xml" value="0.25052083333333336" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/blank_project_activity.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/layout/component_detail_activity.xml" value="0.21770833333333334" />
@@ -40,16 +43,6 @@
         <entry key="app/src/main/res/layout/list_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/load_samples.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/layout/photo_choice.xml" value="0.21770833333333334" />
-        <entry key="app/src/main/res/layout/sample_detail_activity.xml" value="0.21770833333333334" />
-        <entry key="app/src/main/res/layout/sample_five.xml" value="0.375" />
-        <entry key="app/src/main/res/layout/sample_four.xml" value="0.21770833333333334" />
-        <entry key="app/src/main/res/layout/sample_item.xml" value="0.21770833333333334" />
-        <entry key="app/src/main/res/layout/sample_one.xml" value="0.375" />
-        <entry key="app/src/main/res/layout/sample_three.xml" value="0.21770833333333334" />
-        <entry key="app/src/main/res/layout/sample_two.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/samples_detail_activity.xml" value="0.21770833333333334" />
-        <entry key="app/src/main/res/layout/samples_display.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/samples_list_activity.xml" value="0.3151476372953163" />
         <entry key="app/src/main/res/xml/activity_main.xml" value="0.21770833333333334" />
       </map>
     </option>
